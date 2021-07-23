@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------------------
+ BASE STYLE
+ -------------------------------------------------------------------------------*/
+
+/* font-family */
+html,
+body,
+input,
+select,
+textarea,
+table,
+th,
+td,
+li ,
+a {
+	font-family: Helvetica, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+/* font-style */
+html,
+body {
+	line-height: 1.7;
+	font-size: 14px;
+	-webkit-text-size-adjust: 100%;
+	/*
+		-webkit-transition: font-size 1s;
+		-moz-transition: font-size 1s;
+		-ms-transition: font-size 1s;
+		-o-transition: font-size 1s;
+		transition: font-size 1s;
+	*/
+}
+/* base font color */
+html {
+	color: #333;
+}
+/* form font color */
+input,
+select,
+textarea  {
+	color: #333;
+}
+/* normalize size */
+input,
+select,
+textarea  {
+	font-size: 100%;
+}
+/* normalize size & weight */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6  {
+	font-size: 100%;
+	font-weight: normal;
+}
+/* heading color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+dt  {
+	 color: #FFFFFF; 
+}
+/* normalize style & weight */
+strong,
+em,
+small  {
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*-------------------------------------------------------------------------------
+ ANCHORS STYLE
+ -------------------------------------------------------------------------------*/
+
+a:link		 { color: #FFFFFF; text-decoration: underline; }
+a:visited	 { color: #FFFFFF; text-decoration: underline; }
+a:hover		 { color: #FFFFFF; text-decoration: none; }
+a:active	 { color: #FFFFFF; text-decoration: none; }
+

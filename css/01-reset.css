@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* margin padding reset */
+body,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+select  {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* remove list point mark */
+ul,
+ol		 { list-style: none; }
+
+:root ol,
+:root ul  {
+	margin: 0;
+	padding: 0;
+}
+:root blockquote  {
+	margin: 0;
+}
+
+/* remove border & off descender */
+img		 { border: 0; }
+
+/* remove descender */
+img,
+svg,
+input,
+select,
+textarea,
+label	 { vertical-align: middle; }
+
+/* set collapse */
+table	 { border-collapse: collapse; }
+
+/* off bold */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+em,
+strong  { font-weight: normal; }
+
+/* break word for all elements */
+*,
+*:before,
+*:after  {
+	word-break: break-all;
+}
+pre	  {
+	white-space: pre-wrap;
+}
+
+/* all elements border-box */
+*,
+*:before,
+*:after  {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*.cf::after {
+	clear: both;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    _height: 1%;
+}
+*/.cf::after {
+  content:"";
+  display:table;
+  clear:both;
+}
