@@ -1,0 +1,221 @@
+body {
+  position: relative;
+  background-color: #333333;
+}
+
+/*----------------------------
+  header
+----------------------------*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  background-color: #333333;
+  z-index: 10;
+}
+
+.header-inner {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo > a {
+  display: block;
+  width: 200px;
+  height: 70px;
+  background-image: url("../images/logo.png");
+  text-indent: -9999px;
+}
+
+.header-nav {
+  float: right;
+
+}
+
+.header-nav-list {
+
+}
+
+.header-nav-list > li {
+  float: left;
+  line-height: 70px;
+}
+
+.header-nav-list > li + li {
+  margin-left: 20px!important;
+  
+}
+
+.header-nav-list > li > a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+/*----------------------------
+  main
+----------------------------*/
+.content {
+  position: relative;
+  width: 100%;
+  height: 1050px;
+  margin: 0 auto;
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  color: #333333;
+}
+
+.content.first {
+  /*background: url(../images/bg-visualstudio.jpg) 50% 0 no-repeat fixed;*/
+  background: url(../images/bg-spring.jpg) 50% 0 no-repeat fixed;
+}
+.content.second {
+  /*background: url(../images/bg-maya.jpg) 50% 0 no-repeat fixed black;*/
+  background: url(../images/bg-summer.jpg) 50% 0 no-repeat fixed;
+}
+.content.third {
+  /*background: url(../images/bg-unrealengine.jpg) 50% 0 no-repeat fixed black;*/
+  background: url(../images/bg-autumn.jpg) 50% 0 no-repeat fixed;
+}
+.content.theend {
+  /*background: url(../images/bg-aftereffects2.jpg) 50% 0 no-repeat fixed;*/
+  background: url(../images/bg-winter.jpg) 50% 0 no-repeat fixed;
+}
+
+.logo {
+  position: fixed;
+  top: 350px;
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+}
+
+/*.second {
+  padding: 80px 0;
+}*/
+
+.theend > p {
+  position: absolute;
+  top: 180px;
+  width: 100%;
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 0 0 16px rgba(140, 123, 96, 0.8);
+}
+
+/* ----- contents ----- */
+.content-inner {
+  width: 980px;
+  margin: 80px auto 0 auto;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.content-header {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.content-body {
+  margin-top: 65px;
+}
+
+.skill {
+  float: left;
+  width: 300px;
+}
+
+.skill + .skill {
+  margin-left: 20px;
+}
+
+.skill-header {
+}
+
+.skill-category {
+  font-size: 25px;
+  text-align: center;
+}
+
+.skill-english {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.skill-body {
+    margin-top: 20px;
+}
+
+.skill-image {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+}
+
+.skill-list {
+  margin-top: 20px!important;
+  padding-left: 20px!important;
+}
+
+.skill-list > li {
+  position: relative;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.skill-list > li::before {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: -15px;
+  width: 8px;
+  height: 14px;
+  background-image: url(../images/arrow.png);
+  content: "";
+}
+
+.skill-list > li + li {
+  margin-top: 10px;
+}
+
+
+
+/*----------------------------
+  footer
+----------------------------*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #333333;
+  z-index: 10;
+}
+
+.footer-inner {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 80px;
+}
